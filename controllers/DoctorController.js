@@ -9,7 +9,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const HOSPITAL_ID = process.env.HOSPITAL_ID;
-const CENTRAL_API_URL = process.env.CENTRAL_API_URL || 'https://mediconnet-backend.onrender.com/api/central-history/records';
+const CENTRAL_API_URL = process.env.CENTRAL_API_URL || 'https://mediconnet-backend-9nti.onrender.com/api/central-history/records';
 
 const syncToCentralPatientHistory = async (record) => {
   try {
